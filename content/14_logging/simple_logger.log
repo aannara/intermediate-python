@@ -1,0 +1,22 @@
+2024-02-12 14:11:52,208 - __main__ - ERROR - This is an error
+2024-02-12 14:14:12,321 - __main__ - ERROR - This is an error
+2024-02-12 14:14:12,321 - __main__ - ERROR - This is an error
+2024-02-12 14:15:18,170 - __main__ - ERROR - This is an error
+2024-02-12 14:32:00,748 - __main__ - ERROR - Error occurred
+2024-02-12 14:32:00,752 - __main__ - CRITICAL - Critical error -- shutting down
+2024-02-12 16:52:53,977 - __main__ - ERROR - This is an error
+2024-02-12 16:53:11,619 - __main__ - ERROR - This is an error
+2024-02-12 16:53:11,619 - __main__ - ERROR - This is an error
+2024-02-12 16:53:22,103 - __main__ - ERROR - Error occurred
+2024-02-12 16:53:22,103 - __main__ - ERROR - Error occurred
+2024-02-12 16:53:22,111 - __main__ - CRITICAL - Critical error -- shutting down
+2024-02-12 16:53:22,111 - __main__ - CRITICAL - Critical error -- shutting down
+2024-02-12 16:53:41,863 - __main__ - ERROR - This is an error
+2024-06-04 15:28:37,859 - __main__ - ERROR - This is an error
+2024-06-04 15:29:28,660 - __main__ - ERROR - This is an error
+2024-06-04 15:29:28,660 - __main__ - ERROR - This is an error
+2024-06-04 15:29:48,598 - __main__ - ERROR - This is an error
+2024-06-04 15:31:09,454 - __main__ - ERROR - Error occurred
+2024-06-04 15:31:09,459 - __main__ - CRITICAL - Critical error -- shutting down
+2024-06-04 15:33:13,991 - __main__ - ERROR - Error occurred
+2024-06-04 15:33:13,993 - __main__ - CRITICAL - Critical error -- shutting down

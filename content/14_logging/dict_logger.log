@@ -1,0 +1,6 @@
+[DEBUG] 2024-06-04 15:31:09,447 [__main__: <module>: 1]: Debugging information
+[INFO] 2024-06-04 15:31:09,449 [__main__: <module>: 2]: Informational message
+[WARNING] 2024-06-04 15:31:09,451 [__main__: <module>: 3]: Warning:config file server.conf not found
+[ERROR] 2024-06-04 15:31:09,454 [__main__: <module>: 4]: Error occurred
+[CRITICAL] 2024-06-04 15:31:09,459 [__main__: <module>: 5]: Critical error -- shutting down
+[INFO] 2024-06-04 15:31:09,459 [__main__: <module>: 6]: Logging using a dict config

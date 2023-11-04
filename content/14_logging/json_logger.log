@@ -1,0 +1,6 @@
+[DEBUG] 2024-06-04 15:33:35,223 [__main__: <module>: 1]: Debugging information
+[INFO] 2024-06-04 15:33:35,224 [__main__: <module>: 2]: Informational message
+[WARNING] 2024-06-04 15:33:35,225 [__main__: <module>: 3]: Warning:config file server.conf not found
+[ERROR] 2024-06-04 15:33:35,225 [__main__: <module>: 4]: Error occurred
+[CRITICAL] 2024-06-04 15:33:35,226 [__main__: <module>: 5]: Critical error -- shutting down
+[INFO] 2024-06-04 15:33:35,227 [__main__: <module>: 6]: Logging using a JSON config

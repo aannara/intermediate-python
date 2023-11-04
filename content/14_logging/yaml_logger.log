@@ -1,0 +1,13 @@
+[DEBUG] 2024-06-04 15:34:16,590 [__main__: <module>: 1]: Debugging information
+[INFO] 2024-06-04 15:34:16,592 [__main__: <module>: 2]: Informational message
+[WARNING] 2024-06-04 15:34:16,593 [__main__: <module>: 3]: Warning:config file server.conf not found
+[ERROR] 2024-06-04 15:34:16,594 [__main__: <module>: 4]: Error occurred
+[CRITICAL] 2024-06-04 15:34:16,595 [__main__: <module>: 5]: Critical error -- shutting down
+[INFO] 2024-06-04 15:34:16,596 [__main__: <module>: 6]: Logging using a YAML config
+[ERROR] 2024-06-04 15:34:26,203 [__main__: divide_numbers: 7]: 
+1 / 'a' throws TypeError("unsupported operand type(s) for /: 'int' and 'str'")
+Traceback (most recent call last):
+  File "C:\Users\aannara\AppData\Local\Temp\ipykernel_25552\2133717759.py", line 3, in divide_numbers
+    result = a / b
+TypeError: unsupported operand type(s) for /: 'int' and 'str'
+[INFO] 2024-06-04 15:34:26,204 [__main__: divide_numbers: 13]: Division operation completed.

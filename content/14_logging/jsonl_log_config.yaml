@@ -1,0 +1,32 @@
+version: 1
+disable_existing_loggers: false
+formatters:
+  json:
+    (): custom_json_logger.CustomJSONFormatter
+    fmt_keys:
+      level: levelname
+      message: message
+      timestamp: timestamp
+      logger: name
+      module: module
+      function: funcName
+      line: lineno
+      thread_name: threadName
+handlers:
+  stderr:
+    class: logging.StreamHandler
+    level: WARNING
+    formatter: json
+    stream: ext://sys.stderr
+  file_json:
+    class: logging.FileHandler
+    level: DEBUG
+    formatter: json
+    filename: 14_logging/jsonl_yaml_logger.log
+    mode: w+
+loggers:
+  root:
+    level: DEBUG
+    handlers:
+    - stderr
+    - file_json

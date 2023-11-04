@@ -1,0 +1,40 @@
+{
+    "version": 1,
+    "disable_existing_loggers": false,
+    "formatters": {
+        "cli": {
+            "format": "[%(levelname)s] [%(name)s: %(funcName)s: %(lineno)d]: %(message)s"
+        },
+        "log_file": {
+            "format": "[%(levelname)s] %(asctime)s [%(name)s: %(funcName)s: %(lineno)d]: %(message)s"
+        }
+    },
+    "filters": {
+        "non_error_filter": {"()": "custom_json_logger.NonErrorFilter"}
+    },
+    "handlers": {
+        "stdout": {
+            "class": "logging.StreamHandler",
+            "level": "DEBUG",
+            "formatter": "cli",
+            "stream": "ext://sys.stdout",
+            "filters": ["non_error_filter"]
+        },
+        "stderr": {
+            "class": "logging.StreamHandler",
+            "level": "WARNING",
+            "formatter": "cli",
+            "stream": "ext://sys.stderr"
+        },
+        "file": {
+            "class": "logging.FileHandler",
+            "level": "DEBUG",
+            "formatter": "log_file",
+            "filename": "14_logging/json_logger.log",
+            "mode": "w+"
+        }
+    },
+    "loggers": {
+        "root": {"level": "DEBUG", "handlers": ["stdout", "stderr", "file"]}
+    }
+}
